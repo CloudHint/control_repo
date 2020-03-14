@@ -1,4 +1,3 @@
-at ssh_server.pp
 class profile::ssh_server {
   package {'openssh-server':
     ensure => present,
