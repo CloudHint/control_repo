@@ -8,6 +8,6 @@ class profile::agent_nodes {
     }
     host {'db.puppet.vm':
     ensure => present,
-    ip.    => '172.18.0.3',
+    ip    => '172.18.0.3',
     }
 }
